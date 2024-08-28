@@ -2,7 +2,7 @@
   "name": "dylanwere.github.io",
   "version": "1.0.0",
   "description": "My Website",
-  "main": "index.html",
+  "main": "./dist/index.html",
   "scripts": {
     "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
