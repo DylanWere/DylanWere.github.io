@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/DylanWere/DylanWere.github.io#readme",
   "dependencies": {
+    "gh-pages": "^6.1.1",
     "three": "^0.167.1"
   },
   "devDependencies": {
