@@ -4,6 +4,7 @@
   "description": "My Website",
   "main": "index.html",
   "scripts": {
+    "deploy": "gh-pages -d dist",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
