@@ -18,5 +18,11 @@
   "bugs": {
     "url": "https://github.com/DylanWere/DylanWere.github.io/issues"
   },
-  "homepage": "https://github.com/DylanWere/DylanWere.github.io#readme"
+  "homepage": "https://github.com/DylanWere/DylanWere.github.io#readme",
+  "dependencies": {
+    "three": "^0.167.1"
+  },
+  "devDependencies": {
+    "vite": "^5.4.2"
+  }
 }
