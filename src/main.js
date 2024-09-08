@@ -8,7 +8,7 @@ renderer.setSize( window.innerWidth, window.innerHeight );
 renderer.setAnimationLoop( animate );
 document.body.appendChild( renderer.domElement );
 
-const geometry = new THREE.BoxGeometry( 1, 1, 1 );
+const geometry = new THREE.BoxGeometry( 10, 10, 0.1 );
 const material = new THREE.MeshBasicMaterial( { color: 0x00ff00 } );
 const cube = new THREE.Mesh( geometry, material );
 scene.add( cube );
@@ -19,8 +19,15 @@ cube.rotation.x = 0.5;
 
 function animate() {
 
-	cube.rotation.y += 0.02;
 
 	renderer.render( scene, camera );
 
 }
+
+//add mouse interaction
+var mouseClick = false;
+window.addEventListener('click', function(e) {
+
+    mouseClick = true;
+
+}, false);
